@@ -1,0 +1,26 @@
+{
+  "name": "googlebookssearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissarmand/googlebookssearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melissarmand/googlebookssearch/issues"
+  },
+  "homepage": "https://github.com/melissarmand/googlebookssearch#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mogoose": "0.0.1-security",
+    "mongoose": "^6.0.9",
+    "react": "^17.0.2"
+  }
+}
