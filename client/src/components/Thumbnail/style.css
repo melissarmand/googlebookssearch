@@ -1,6 +1,7 @@
-.delete-btn {
-    color: #fff;
-    background-color: #c19c2ec7;
-    border-style: outset;
-    margin-top: 7px;
-    }
+div.thumbnail {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    padding-top: 100%;
+  }
