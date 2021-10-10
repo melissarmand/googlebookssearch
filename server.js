@@ -8,9 +8,11 @@ const app = express();
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
+
 //Serve up static assets (usually on heroku)
 if (process.env.NODE_ENV === "production") {
   app.use(express.static("public"));
+  //app.use('/manifest.json', express.static(path.join(__dirname, "build", "manifest.json")))
 }
 
 //Connect to the Mogno DB
