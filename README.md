@@ -24,7 +24,9 @@ So that I can save and possibly purchase them later.
 ```
 
 ## Description
-In this activity, you'll create a new React-based Google Books Search app. This assignment required me to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. I also used Node, Express and MongoDB so that users can save books to review or purchase later.
+In this activity, you'll create a new React-based Google Books Search app. This assignment required me to create React components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. I also used Node, Express and MongoDB so that users can save books to review or purchase later. 
+
+**Please note that at the time of deployment, the app is returning a 'Failed to load resource: the server responded with a status of 422 (Unprocessable Entity)' in the console when attempting to save a book,however the code is fully functional in your local host.**
 
 ## Links
 
